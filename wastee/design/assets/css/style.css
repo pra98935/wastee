@@ -1,0 +1,395 @@
+/*
+	generic css
+*/
+.container{margin: 0 auto; width: 1100px; max-width: 100%;}
+.outer{float: left;width: 100%;}
+body{margin: 0;}
+a{color: white;}
+a:hover{color: white;}
+ul{padding: 0; margin: 0;}
+.display-table{display: table;height: 90px;}
+.display-table-cell{display: table-cell;vertical-align: middle;}
+.pagebg{background-repeat: repeat;background-image:url('../images/pagebg.jpg'); }
+.whitebg-page {background-color: rgb(255, 255, 255);margin-bottom: 85px;margin-top: 16px;padding: 22px;opacity: 0.7;}
+body{background-color: #F6F6F6;font-family: 'Open Sans', sans-serif;font-size: 13px;}
+h1 {margin-top: 0;}
+
+/*
+	css for header
+*/
+
+.header_outer{background-color: gray;min-height: 90px;}
+nav ul {list-style: outside none none;padding: 0;}
+nav ul li {display: inline;}
+.log-reg div a {border-bottom: 1px dotted;font-size: 12px;padding: 2px 0 2px 15px;}
+.log-reg div.hdr-login a {padding: 2px 0 2px 30px;}
+.log-reg a:hover{text-decoration: none;}
+.navigation ul li span {  color: rgb(255, 255, 255);position: relative;top: 5px;}
+
+/*
+	css for footer
+*/
+footer{position: fixed;bottom: 0;z-index: 999;}
+footer{display: none;}
+.ftr-link ul {list-style: outside none none;padding: 0;}
+.ftr-link ul li {display: inline;}
+.footer_outer{background-color: gray;}
+footer.outer {color: rgb(255, 255, 255);font-size: 12px;}
+footer .display-table{display: table;height: 35px;}
+.heart {
+    background: rgba(0, 0, 0, 0) url("../images/heart.png") no-repeat scroll -438px -14px;
+    display: block;
+    float: left;
+    height: 14px;
+    margin-right: 5px;
+    width: 15px;
+    margin-top:4px;
+}
+
+/*css for home*/
+#restricted {
+    font-size: 24px;
+    min-height: 680px;
+    padding-top: 60px;
+}
+#restricted {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: -5px;
+    min-height: 100%;
+    min-width: 1000px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+#restricted #home {
+    min-height: 700px;
+}
+#restricted #home {
+    margin: 0;
+    padding-right: 64px;
+    width: 50%;
+}
+#restricted #home {
+    position: relative;
+}
+#restricted #home {
+    z-index: 20;
+}
+
+#restricted * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#restricted #home > div:not(.phone) {
+    max-width: 460px;
+    min-width: 360px;
+    width: 75%;
+}
+
+#restricted #home > div:not(.phone) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+#restricted #home > div:not(.phone) {
+    margin: 25px;
+    width: 250px;
+}
+
+#restricted .container {
+    margin: 0;
+}
+#restricted * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#restricted .container > div, #restricted .container > p {
+    margin: 0 0 35px;
+}
+#restricted .restricted-logo {
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    z-index: 20;
+}
+#restricted * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#restricted .restricted-logo img {
+    height: auto;
+    width: 250px;
+}
+#restricted img {
+    height: auto;
+    max-width: 100%;
+}
+
+#restricted .container > div, #restricted .container > p {
+    margin: 0 0 35px;
+}
+#restricted .description {
+    margin: 0;
+    max-width: none;
+}
+#restricted .description {
+    margin: 0 auto;
+    max-width: 370px;
+}
+
+
+#restricted .container > div, #restricted .container > p {
+    margin: 0 0 35px;
+}
+#restricted .store-intro {
+    max-width: none;
+}
+#restricted .store-intro {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px auto;
+    max-width: 370px;
+}
+
+#restricted .store-intro > div {
+    height: 60px;
+    margin: 0 15px 0 0;
+    min-width: 60px;
+    width: 60px;
+}
+
+#restricted .store-intro img {
+    height: 60px;
+    margin: 0;
+    width: 60px;
+}
+#restricted img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+#restricted .container > div, #restricted .container > p {
+    margin: 0 0 35px;
+}
+#restricted .stores {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+#restricted .stores .store.store--apple {
+    margin-right: 15px;
+}
+#restricted .stores a {
+    display: block;
+    max-width: 175px;
+    min-width: 120px;
+}
+
+#restricted .stores a {
+    display: block;
+    max-width: 175px;
+    min-width: 120px;
+}
+
+#restricted .stores .store img {
+    display: block;
+}
+
+#restricted .phone {
+    background: rgba(0, 0, 0, 0) url("../images/iphone-black.png") no-repeat scroll 0 0 / cover ;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    width: 320px;
+    z-index: 10;
+}
+#restricted .phone {
+    right: -160px;
+    top: -22px;
+}
+#restricted .phone {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#restricted .phone {
+    height: 680px;
+    right: -206px;
+    width: 400px;
+}
+
+#restricted .phone img {
+    left: 65px;
+    top: 93px;
+    width: 260px;
+}
+#restricted .phone img {
+    border-radius: 2px;
+    height: auto;
+    left: 56px;
+    position: absolute;
+    top: 78px;
+    width: 220px;
+}
+
+#restricted #home > div:not(.phone) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#restricted #home > div:not(.phone) {
+    margin: 25px;
+    width: 250px;
+}
+#restricted .social-buttons {
+    height: 50px;
+    text-align: center;
+}
+
+
+#restricted #home > div:not(.phone) {
+    max-width: 460px;
+    min-width: 360px;
+    width: 75%;
+}
+
+#restricted .social-buttons a {
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#restricted .likes > div {
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: top;
+}
+
+#restricted .map-layer::after {
+    background: rgba(0, 0, 0, 0) url("../images/pattern_mapoverlay01.png") repeat scroll left top;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#restricted .map-layer {
+    background-position: left bottom;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 5;
+}
+
+#restricted .map-layer {
+    /*display: none;*/
+    overflow: hidden;
+}
+
+#restricted .map-layer .map-item--01::after {
+    background: rgba(0, 0, 0, 0) url("../images/item_flag_free.png") no-repeat scroll 0 0 / contain ;
+    content: "";
+    display: block;
+    height: 40%;
+    position: absolute;
+    right: 15%;
+    top: -15%;
+    width: 40%;
+}
+
+#restricted .map-layer .map-item--01 {
+    background-image: url("../images/item_01_bg.png");
+    left: 25%;
+    top: 3%;
+}
+
+#restricted .map-layer .map-item {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 16%;
+    max-height: 143px;
+    max-width: 199px;
+    min-height: 100px;
+    min-width: 115px;
+    position: absolute;
+    width: 16%;
+    z-index: 20;
+}
+
+#restricted .map-layer .map-item--02 {
+    background-image: url("../images/item_04_bg.png");
+    left: 55%;
+    top: 17%;
+}
+
+#restricted .map-layer .map-item--03 {
+    background-image: url("../images/item_06_bg.png");
+    left: 75%;
+    top: 37%;
+}
+
+
+#restricted .map-layer .map-item--04::after {
+    background: rgba(0, 0, 0, 0) url("../images/item_flag_new.png") no-repeat scroll 0 0 / contain ;
+    content: "";
+    display: block;
+    height: 40%;
+    position: absolute;
+    right: 15%;
+    top: -15%;
+    width: 40%;
+}
+#restricted .map-layer .map-item--04 {
+    background-image: url("../images/item_03_bg.png");
+    left: 30%;
+    top: 43%;
+}
+
+#restricted .map-layer .map-item--05::after {
+    background: rgba(0, 0, 0, 0) url("../images/item_flag_sold.png") no-repeat scroll 0 0 / contain ;
+    content: "";
+    display: block;
+    height: 40%;
+    position: absolute;
+    right: 15%;
+    top: -15%;
+    width: 40%;
+}
+#restricted .map-layer .map-item--05 {
+    background-image: url("../images/item_05_bg.png");
+    left: 60%;
+    top: 55%;
+}
+
+
+#restricted .map-layer .map-item--06 {
+    background-image: url("../images/item_02_bg.png");
+    left: 47%;
+    top: 69%;
+}

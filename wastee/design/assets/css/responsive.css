@@ -1,0 +1,22 @@
+@media screen and (max-width: 479px){
+	.logo{text-align: center;}
+	.display-table{height: 45px;}
+	.log-reg{text-align: center;margin-bottom: 15px;}
+	.log-reg div a{padding-left: 0;}
+	.log-reg div.hdr-login a {padding: 2px 7px;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.logo{text-align: center;}
+	.display-table{height: 45px;}
+	.log-reg{text-align: center;margin-bottom: 15px;}
+	.log-reg div a{padding-left: 0;}
+	.log-reg div.hdr-login a {padding: 2px 7px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+}
